@@ -2,11 +2,11 @@
 
 namespace DailyCodingProblem._1
 {
-	public class Solution1
+	public class Problem1
 	{
 		private readonly int[] _numbers;
 
-		public Solution1(int[] numbers)
+		public Problem1(int[] numbers)
 		{
 			_numbers = numbers;
 		}

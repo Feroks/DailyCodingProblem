@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace DailyCodingProblem.Tests._1.Data
+namespace DailyCodingProblem._1.Tests.Data
 {
-	public class Solution1SuccessTestData : IEnumerable<object[]>
+	public class Problem1SuccessTestData : IEnumerable<object[]>
 	{
 		public IEnumerator<object[]> GetEnumerator()
 		{
