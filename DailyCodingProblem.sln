@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyCodingProblem", "src\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyCodingProblem.Tests", "tests\DailyCodingProblem.Tests\DailyCodingProblem.Tests.csproj", "{E349491F-51CB-465B-A34A-A09B607891DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyCodingProblem.Benchmarks", "tests\DailyCodingProblem.Benchmarks\DailyCodingProblem.Benchmarks.csproj", "{9D6889AF-479A-42BC-A35C-E984891516B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{199052CC-C0ED-406F-BAFE-9EB67A1F09FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{E349491F-51CB-465B-A34A-A09B607891DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E349491F-51CB-465B-A34A-A09B607891DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E349491F-51CB-465B-A34A-A09B607891DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6889AF-479A-42BC-A35C-E984891516B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6889AF-479A-42BC-A35C-E984891516B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6889AF-479A-42BC-A35C-E984891516B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6889AF-479A-42BC-A35C-E984891516B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D6889AF-479A-42BC-A35C-E984891516B4} = {199052CC-C0ED-406F-BAFE-9EB67A1F09FC}
+		{E349491F-51CB-465B-A34A-A09B607891DC} = {199052CC-C0ED-406F-BAFE-9EB67A1F09FC}
 	EndGlobalSection
 EndGlobal
