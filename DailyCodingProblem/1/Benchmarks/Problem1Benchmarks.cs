@@ -7,7 +7,7 @@ namespace DailyCodingProblem._1.Benchmarks
 	[MemoryDiagnoser]
 	public class Problem1Benchmarks
 	{
-		private readonly Problem1 _problem1;
+		private readonly Problem1 _problem;
 
 		public Problem1Benchmarks()
 		{
@@ -15,7 +15,7 @@ namespace DailyCodingProblem._1.Benchmarks
 				.Range(0, 1000000)
 				.ToArray();
 
-			_problem1 = new Problem1(numbers);
+			_problem = new Problem1(numbers);
 		}
 
 		[UsedImplicitly]
@@ -23,12 +23,12 @@ namespace DailyCodingProblem._1.Benchmarks
 		public int Number { get; set; }
 
 		[Benchmark]
-		public void Linq() => _problem1.Linq(Number);
+		public void Linq() => _problem.Linq(Number);
 		
 		[Benchmark]
-		public void LinqParallel() => _problem1.LinqParallel(Number);
+		public void LinqParallel() => _problem.LinqParallel(Number);
 		
 		[Benchmark]
-		public void For() => _problem1.For(Number);
+		public void For() => _problem.For(Number);
 	}
 }
