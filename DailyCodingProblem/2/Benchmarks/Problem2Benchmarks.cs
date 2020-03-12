@@ -32,5 +32,8 @@ namespace DailyCodingProblem._2.Benchmarks
 		
 		[Benchmark]
 		public void For() => _problem.For();
+		
+		[Benchmark]
+		public void For3Loops() => _problem.For3Loops();
 	}
 }

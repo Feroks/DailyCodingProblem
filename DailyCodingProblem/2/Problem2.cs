@@ -44,5 +44,38 @@ namespace DailyCodingProblem._2
 
 			return output;
 		}
+		
+		/// <summary>
+		/// Copied from the internet
+		/// </summary>
+		/// <returns></returns>
+		public IReadOnlyCollection<uint> For3Loops()
+		{
+			var length = _numbers.Length;
+			
+			var cumulativeLeft = new uint[length];
+			var cumulativeRight = new uint[length];
+			var output = new uint[length];
+
+			cumulativeLeft[0] = 1;
+			cumulativeRight[^1] = 1;
+
+			for (var i = 1; i < length; i++)
+			{
+				cumulativeLeft[i] = cumulativeLeft[i - 1] * _numbers[i - 1];
+			}
+			
+			for (var i = length - 2; i > -1; i--)
+			{
+				cumulativeRight[i] = cumulativeRight[i + 1] * _numbers[i + 1];
+			}
+
+			for (var i = 0; i < length; i++)
+			{
+				output[i] = cumulativeLeft[i] * cumulativeRight[i];
+			}
+
+			return output;
+		}
 	}
 }
