@@ -21,6 +21,6 @@ namespace DailyCodingProblem._7.Benchmarks
 		public void RecursionSpan() => _problemSpan.Run(Sequence);
 		
 		[Benchmark]
-		public void RecursionSpanPath() => _problemSpanCache.Run(Sequence);
+		public void RecursionSpanCache() => _problemSpanCache.Run(Sequence);
 	}
 }
