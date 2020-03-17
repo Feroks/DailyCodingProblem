@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace DailyCodingProblem._5.Tests.Data
+namespace DailyCodingProblem._7.Tests.Data
 {
 	public class Problem5TestData : IEnumerable<object[]>
 	{

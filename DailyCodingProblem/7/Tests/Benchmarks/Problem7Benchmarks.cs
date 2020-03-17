@@ -1,14 +1,14 @@
 ﻿using BenchmarkDotNet.Attributes;
 using JetBrains.Annotations;
 
-namespace DailyCodingProblem._5.Tests.Benchmarks
+namespace DailyCodingProblem._7.Tests.Benchmarks
 {
 	[MemoryDiagnoser]
-	public class Problem5Benchmarks
+	public class Problem7Benchmarks
 	{
-		private readonly Problem5 _problem = new Problem5();
-		private readonly Problem5Span _problemSpan = new Problem5Span();
-		private readonly Problem5SpanCache _problemSpanCache = new Problem5SpanCache();
+		private readonly Problem7 _problem = new Problem7();
+		private readonly Problem7Span _problemSpan = new Problem7Span();
+		private readonly Problem7SpanCache _problemSpanCache = new Problem7SpanCache();
 
 		[UsedImplicitly]
 		[Params("127589623153453", "21408799411236805823401923123053")]

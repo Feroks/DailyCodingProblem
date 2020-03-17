@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DailyCodingProblem._5
+namespace DailyCodingProblem._7
 {
-	public class Problem5Span : Problem5SpanBase
+	public class Problem7Span : Problem7SpanBase
 	{
 		public override int Run(string input)
 		{

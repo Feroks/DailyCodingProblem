@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DailyCodingProblem._5
+namespace DailyCodingProblem._7
 {
-	public class Problem5SpanCache : Problem5SpanBase
+	public class Problem7SpanCache : Problem7SpanBase
 	{
 		private readonly Dictionary<int, int> _paths = new Dictionary<int, int>();
 

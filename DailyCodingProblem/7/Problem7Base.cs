@@ -1,6 +1,6 @@
-﻿namespace DailyCodingProblem._5
+﻿namespace DailyCodingProblem._7
 {
-	public abstract class Problem5Base
+	public abstract class Problem7Base
 	{
 		protected const string MaxSymbol = "26";
 
