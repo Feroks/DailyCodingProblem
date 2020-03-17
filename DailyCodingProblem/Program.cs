@@ -2,7 +2,7 @@
 using DailyCodingProblem._1.Benchmarks;
 using DailyCodingProblem._2.Benchmarks;
 using DailyCodingProblem._4.Benchmarks;
-using DailyCodingProblem._7.Tests.Benchmarks;
+using DailyCodingProblem._7.Benchmarks;
 
 namespace DailyCodingProblem
 {

@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using JetBrains.Annotations;
 
-namespace DailyCodingProblem._7.Tests.Benchmarks
+namespace DailyCodingProblem._7.Benchmarks
 {
 	[MemoryDiagnoser]
 	public class Problem7Benchmarks
