@@ -7,7 +7,7 @@ namespace DailyCodingProblem._7.Tests
 	public class Problem7SpanCacheRunShould
 	{
 		[Theory]
-		[ClassData(typeof(Problem5TestData))]
+		[ClassData(typeof(Problem7TestData))]
 		public void ReturnCorrectValue(string value, int expectedResult)
 		{
 			var fixture = new Problem7SpanCache();
