@@ -17,4 +17,8 @@
       <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <EmbeddedResource Include="8\Benchmarks\Data\*" />
+    </ItemGroup>
+
 </Project>
