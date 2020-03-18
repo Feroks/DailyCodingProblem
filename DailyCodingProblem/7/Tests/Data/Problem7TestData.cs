@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DailyCodingProblem._7.Tests.Data
 {
-	public class Problem5TestData : IEnumerable<object[]>
+	public class Problem7TestData : IEnumerable<object[]>
 	{
 		public IEnumerator<object[]> GetEnumerator()
 		{
